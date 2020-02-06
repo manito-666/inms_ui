@@ -12,7 +12,7 @@ class Login:
         # 实例化浏览器
         self.d= webdriver.Chrome(chrome_options=self.options)
         # 打开登录界面
-        self.d.get("http://192.168.12.205")
+        self.d.get("http://localhost")
         # WebDriverWait(self.d,60.1).until(lambda ele:self.d.find_element_by_xpath('//*[@id="app"]/div/div[1]/form/div[1]/div/div/input'))
         # self.d.find_element_by_xpath('//*[@id="app"]/div/div[1]/form/div[1]/div/div/input').clear()
         # sleep(1)
