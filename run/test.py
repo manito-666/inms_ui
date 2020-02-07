@@ -55,7 +55,7 @@ class Testcase01(unittest.TestCase):
 
     def testcase03(self):
         '''根据场景名称进行查询'''
-        result=CJ().select_cj()
+        result=CJ().select_cj('test')
         self.assertIn(result, "编辑", "测试失败")
 
     def testcase04(self):
